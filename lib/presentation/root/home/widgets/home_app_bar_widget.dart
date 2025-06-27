@@ -8,7 +8,7 @@ class HomeAppBarWidget extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       title: Text(
         "LOGO",
-        style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+        style: Theme.of(context).textTheme.headlineLarge?.copyWith(
           color: Theme.of(context).colorScheme.onPrimary,
           fontWeight: FontWeight.bold,
         ),

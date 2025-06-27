@@ -22,7 +22,8 @@ class RootScreen extends StatelessWidget {
           currentIndex: tabsRouter.activeIndex,
           onTap: tabsRouter.setActiveIndex,
           selectedItemColor: Theme.of(context).colorScheme.primary,
-          unselectedItemColor: Theme.of(context).colorScheme.onSurfaceVariant,
+          unselectedItemColor: Theme.of(context).colorScheme.secondary,
+
           items: [
             const BottomNavigationBarItem(
               icon: Icon(Icons.home_outlined),

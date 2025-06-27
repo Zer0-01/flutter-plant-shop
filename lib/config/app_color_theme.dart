@@ -12,6 +12,7 @@ class AppColorTheme {
       surfaceContainer: Color(0xfff4f4f4),
       onSurface: Colors.black,
       onSurfaceVariant: Color(0xff707070),
+      secondary: Color.fromARGB(255, 209, 209, 209),
     ),
   );
 }
