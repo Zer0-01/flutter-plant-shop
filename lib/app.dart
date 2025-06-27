@@ -11,13 +11,13 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AdaptiveTheme(
-      debugShowFloatingThemeButton: true,
       light: AppColorTheme.light,
-      dark: ThemeData.dark(useMaterial3: true),
+      dark: AppColorTheme.light,
       initial: AdaptiveThemeMode.light,
       overrideMode: AdaptiveThemeMode.light,
       builder: (light, dark) {
         return MaterialApp.router(
+          debugShowCheckedModeBanner: false,
           routerConfig: _appRouter.config(),
           theme: light,
           darkTheme: dark,
