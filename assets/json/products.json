@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "image": "assets/image_product.jpg",
+            "brand": "LushLiving",
+            "name": "Premium Handcrafted Wooden Storage Organizer for Home Office Decor",
+            "price": 129.99,
+            "discount": 10
+        },
+        {
+            "image": "assets/image_product.jpg",
+            "brand": "TechHive",
+            "name": "Ultra HD Wireless Bluetooth Headphones with Noise Cancellation Feature",
+            "price": 299.00
+        },
+        {
+            "image": "assets/image_product.jpg",
+            "brand": "NatureCore",
+            "name": "Organic Bamboo Charcoal Air Purifying Bags for Closet and Car Use",
+            "price": 59.50,
+            "discount": 15
+        },
+        {
+            "image": "assets/image_product.jpg",
+            "brand": "FitPulse",
+            "name": "Adjustable Resistance Bands Set with Handles and Door Anchor for Full Body Workout",
+            "price": 79.99
+        },
+        {
+            "image": "assets/image_product.jpg",
+            "brand": "GlowEssence",
+            "name": "Hydrating Vitamin C Face Serum with Hyaluronic Acid and Botanical Extracts",
+            "price": 109.95,
+            "discount": 5
+        },
+        {
+            "image": "assets/image_product.jpg",
+            "brand": "EcoBrew",
+            "name": "Stainless Steel Reusable Coffee Pods Compatible with Nespresso Machines",
+            "price": 89.90
+        }
+    ]
+}
